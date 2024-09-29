@@ -9,7 +9,7 @@ To help the visually impaired by providing a text description (that could be rea
 ## Elements
 
 ### Vision
-Analyzing the uploaded photo
+Analyzing the uploaded photo. May use opencv (https://docs.opencv.org/3.4/d2/d64/tutorial_table_of_content_objdetect.html) to detect objects and do any image processing as needed (for example to draw a safe path: https://docs.opencv.org/3.4/d3/d96/tutorial_basic_geometric_drawing.html)
 
 ### Natural Language
 Describing the photo in words and potentially answering follow-up questions
