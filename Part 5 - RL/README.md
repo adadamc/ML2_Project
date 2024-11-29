@@ -3,4 +3,4 @@
 If I had time to implement reinforcement learning, I would try using Computer Vision to accurately label safe places to walk (like sidewalks, crosswalks) and also unsafe places (like roads and water). I would then have the user select where the position they want to reach. We could then have a grid of positions with rewards, where we are rewarded a **very bad** negative value for entering a dangerous area, and a 0 (with discount factor OR a low negative value) to encourage walking in a safe area while also rewarding finding the shortest path. This way we can use Q-Learning to find the optimal path and find the best action to take (left, right, straight, backwards) given the current state. We would then always pick the action that results in the best Q-value. Here is an example (not a perfect grid by any means, of what rewards would look like at an intersection):
 <br />
 <br />
-![an intersection with reward values](images/ExampleRewards.PNG)
+![an intersection with reward values](Images/ExampleRewards.PNG)
